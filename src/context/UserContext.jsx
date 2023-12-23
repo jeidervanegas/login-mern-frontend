@@ -22,7 +22,7 @@ export const UserProvider = (props) => {
   const loginUser = async (dataUser, navigate) => {
     try {
         //hacemps la peticion
-        const { data } = await axios.post('http://localhost:3019/api/login', dataUser);
+        const { data } = await axios.post('https://login-mern-api-dev-ahgz.2.us-1.fl0.io/api/login', dataUser);
 
         console.log(data);
 
