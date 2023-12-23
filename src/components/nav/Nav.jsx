@@ -30,8 +30,8 @@ export const Nav = () => {
                 ): (
                     <ul>
                         <li className='nav-menu'>
-                            <Link className='nav-li'>Nosotros</Link>
-                            <Link className='nav-li'>Registro</Link>
+                            {/* <Link className='nav-li'>Nosotros</Link> */}
+                            {/* <Link className='nav-li'>Registro</Link> */}
                         </li>
                     </ul>
                 )}
