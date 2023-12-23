@@ -15,6 +15,7 @@ export const UserProvider = (props) => {
   const [user, setUser] = useState(() => {
     const session = localStorage.getItem('user');
     return session ? JSON.parse(session) : initialState
+    
   })
 
   //creamos la funcion de login
